@@ -93,7 +93,7 @@ class MyInterface(QWidget):
         layout.addLayout(test_seccion)
 
         self.setLayout(layout)
-        self.setWindowTitle("Clasificador de peces")
+        self.setWindowTitle("Clasificador de comida")
 
     def toggle_section_test(self):
         self.messageWidget_test.setVisible(not self.messageWidget_test.isVisible())
